@@ -7,10 +7,10 @@
      <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
-            Vue Todo
+            Заметки
           </v-list-item-title>
           <v-list-item-subtitle>
-            Best Vue Todo!
+            Веб-приложение для заметок!
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -54,7 +54,7 @@
 
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>Vue Todo</v-app-bar-title>
+      <v-app-bar-title>Заметки на Vue</v-app-bar-title>
 
       <v-spacer></v-spacer>
 
@@ -81,10 +81,14 @@
   export default {
     data: () => ({ drawer: null, 
       items: [
-          { title: 'Todo', icon: 'mdi-format-list-checks', to: '/'},
-          { title: 'About', icon: 'mdi-help-box', to: '/about'},
+          { title: 'Заметки', icon: 'mdi-format-list-checks', to: '/'},
+          { title: 'О нас', icon: 'mdi-help-box', to: '/about'},
         ], 
       }),
     
   }
 </script>
+
+<style scoped>
+
+</style>
